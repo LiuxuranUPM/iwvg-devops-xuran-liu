@@ -12,7 +12,10 @@ notifications:
   email:
     recipients:
       - 314314er@sina.com
+  // travis.yml
+before_install:
+  - chmod +x mvnw
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-script:
-  - mvn verify
+
+  - mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=liuxuranupm -Dsonar.login=$SONAR
