@@ -1,5 +1,5 @@
 language: java
-
+#jdk: openjdk14 #problems with sonar-maven-plugin
 branches:
   only:
     - develop
@@ -20,7 +20,8 @@ script:
 
   deploy:
     provider: heroku
-    api_key: $HEROKU
+    api_key:
+      secure: $HEROKU
     on:
       branch: master
     app: template-webflux-liuxuran
