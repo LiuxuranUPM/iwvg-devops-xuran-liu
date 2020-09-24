@@ -2,6 +2,10 @@
 ## Ingeniería Web: Visión General (IWVG) DevOps
 > Este proyecto es una Plantilla de apoyo docente de la asignatura.
 
+## Estacido del código
+[![Build Status](https://www.travis-ci.org/LiuxuranUPM/webflux-liuxuran.svg?branch=develop)](https://www.travis-ci.org/LiuxuranUPM/webflux-liuxuran)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Atemplate-webflux-liuxuran&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Atemplate-webflux-liuxuran)
+
 ### :gear: Instalación del proyecto
 1. Clonar el repositorio en tu equipo, **mediante consola**:
 ```sh
