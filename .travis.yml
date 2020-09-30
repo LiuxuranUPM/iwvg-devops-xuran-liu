@@ -20,8 +20,7 @@ script:
 
 deploy:
   provider: heroku
-  api_key:
-    secure: $HEROKU
+  api_key: HEROKU
   on:
     branch: master
   app: template-webflux-liuxuran
